@@ -1,5 +1,5 @@
 from baselines import deepq
-from baselines.common import wrap_deepmind
+from baselines.common.atari_wrappers import wrap_deepmind
 from baselines.common import set_global_seeds
 from baselines import bench
 import argparse
