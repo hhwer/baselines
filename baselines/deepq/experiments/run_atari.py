@@ -41,8 +41,6 @@ def main():
         learning_starts=10000,
         target_network_update_freq=1000,
         gamma=0.99,
-        prioritized_replay=bool(args.prioritized),
-        prioritized_replay_alpha=args.prioritized_replay_alpha,
         checkpoint_freq=args.checkpoint_freq,
         checkpoint_path=args.checkpoint_path,
     )
