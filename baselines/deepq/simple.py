@@ -213,7 +213,7 @@ def learn(env,
             kwargs = {}
 
             update_eps = exploration.value(t)
-            update_param_noise_threshold = 0.
+            
             
             action = act(np.array(obs)[None], update_eps=update_eps, **kwargs)[0]
             env_action = action
